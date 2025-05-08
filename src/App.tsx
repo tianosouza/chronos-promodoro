@@ -9,6 +9,7 @@ import { PlayCircleIcon, StopCircleIcon } from "lucide-react";
 
 import "./styles/global.css";
 import "./styles/theme.css";
+import { Footer } from "./components/Footer";
 
 
 export default function App() {
@@ -42,6 +43,11 @@ export default function App() {
           </div>
         </form>
       </Container>
+
+      <Container>
+        <Footer />
+      </Container>
+
     </>
   );
 }
